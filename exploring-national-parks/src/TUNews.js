@@ -8,7 +8,7 @@ const Twitter = () => (
       data-height="700"
       data-width="700"
     >
-        tweet from TempleUniv
+        Loading(please refresh if freezed at the center)
     </a>
   );
 
