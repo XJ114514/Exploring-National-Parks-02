@@ -24,7 +24,6 @@ import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
 import Footer from './GlobalComponents/Footer.jsx';
 import './Style/main.css';
 import TUNews from './TUNews.js';
-import Maps from './Maps.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,7 +36,6 @@ root.render(
                 <Route path="/ParkInfo" element={<ParkInfo />} />
                 <Route path="/ParkPlan" element={<ParkPlan />} />
                 <Route path="/TUNews" element={<TUNews />} />
-                <Route path="/Maps" element={<Maps />} />
             </Routes>
             <Footer></Footer>
         </Router>
