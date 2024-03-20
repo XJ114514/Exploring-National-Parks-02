@@ -122,8 +122,7 @@ function ParkInfoComponent() {
                                         </ul>
                                         <br></br>
                                         <p>{park.description}</p>
-                                        <a href={park.url}><button className="park-info-button" target="_blank" rel="noreferrer">For More Information</button></a>
-
+                                        <a href={park.url} target="_blank" rel="noreferrer">For More Information</a>
                                         <br></br>
                                         <br></br>
                                         <br></br>
